@@ -1,0 +1,51 @@
+<section>
+    <h1>Formulario</h1>
+    <form action="/procesar" method="POST">
+      <!--Datos personales-->
+      <fieldset>
+        <label for="nombre">Nombre completo:</label>
+        <input
+          type="text"
+          id="nombre"
+          name="nombre"
+          placeholder="Ingrese su nombre"
+          required
+        />
+        <br /><br />
+
+        <label for="correo">Correo electrónico:</label>
+        <input
+          type="email"
+          id="correo"
+          name="correo"
+          placeholder="Ingrese su correo"
+          required
+        />
+        <br /><br />
+        <label>Tipo de pastel</label>
+        <select id="pastel" name="pastel">
+        <option value="Pastel de galleta y fresas">Pastel de galleta y fresas</option>
+        <option value="chocolate" selected>Pastel de Chocolate</option>
+        <option value="Pastel de Mora">Pastel de Mora</option>
+        <option value="Pastel de Blueberry">Pastel de Blueberry</option>
+        <option value="Pastel de Choco">Pastelm de Choco</option>
+        <option value="Pastel de arandanos y chocolate">Pastel de arandanos y chocolate</option>
+        <option value="otro">otro</option>
+        </select>
+        <br /><br />
+
+        <label>Comentario:</label><br />
+        <textarea
+         id="comentario"
+         name="comentario"
+         rows="4"
+         cols="15"
+         placeholder="Dime que opinas de mi pagina"
+        ></textarea>
+        <br /><br />
+        <label>Aceptación de términos:</label><br />
+         <input type="checkbox" id="si" name="si" value="si"/>
+         <label for="tecnologia">Si</label><br />
+         <input type="checkbox" id="no" name="si" value="no" />
+        <label for="musica">No</label><br />
+    </fieldset>

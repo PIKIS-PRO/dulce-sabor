@@ -5,16 +5,18 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    color: #4b2e2e;
+    color: #924747;
 }
 
 .container {
     width: 900px;
     margin: 0 auto;
+    color: #bd85aa;
+
 }
 
 header, footer {
-    background-color: #f4d3c2;
+    background-color: #ddb29c;
     padding: 1em;
     margin-bottom: 1em;
 }
